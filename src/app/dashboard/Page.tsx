@@ -18,22 +18,8 @@ const rows: Row[] = [
     venue: "Uniswap",
     price: 2754,
     input: "ETH",
-    output: "0x41C6e632A5cF14cD77959d17f0b07b8fC876e21d", // DAI Sepolia
-  },
-  {
-    pair: "ETH / FDUSD",
-    venue: "Uniswap",
-    price: 2753,
-    input: "ETH",
-    output: "0x0CBeC5460746A1ed505addcF815ca749CAA00b70", // FDUSD Sepolia
-  },
-  {
-    pair: "ETH / USDT",
-    venue: "Uniswap",
-    price: 2754,
-    input: "ETH",
-    output: "0xC2F2B6B4794bb9fB1983c241dC0F5DADB35C6603", // USDT Sepolia
-  },
+    output: "0x6b175474e89094c44da98b954eedeac495271d0f", // DAI Sepolia
+  }
 ];
 
 export default function Dashboard() {
