@@ -15,37 +15,49 @@ Install the template using [thirdweb create](https://portal.thirdweb.com/cli/cre
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file:
+Create a `.env.local` file in the project root and add your [thirdweb](https://portal.thirdweb.com/typescript/v5/client) client id:
 
-`CLIENT_ID`
+```bash
+NEXT_PUBLIC_TEMPLATE_CLIENT_ID=YOUR_CLIENT_ID
+```
 
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
+This value is required for the SDK to authenticate your requests.
 
 ## Run locally
 
-Install dependencies
+1. Install dependencies using your preferred package manager:
 
-```bash
-yarn
-```
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-Start development server
+2. Start the development server:
 
-```bash
-yarn dev
-```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Create a production build
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-```bash
-yarn build
-```
+4. When you are ready to create a production build run:
 
-Preview the production build
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
 
-```bash
-yarn start
-```
+5. Preview the production build with:
+
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
 ## Resources
 
