@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import Image from "next/image";
 import { ConnectButton } from "thirdweb/react";
@@ -97,4 +97,24 @@ function ArticleCard(props: {
       </article>
     </a>
   );
+}*/
+
+'use client';
+
+import { ConnectWallet } from '@thirdweb-dev/react'; // (v4)  remove if unused
+// import Image from 'next/image';
+// import thirdwebIcon from '@public/thirdweb.svg';
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen items-center justify-center">
+      {/*  🔽 remove the blocks you don't want  */}
+      {/* <Header /> */}
+
+      {/* <ConnectWallet />  <- keep only if you need a wallet button here */}
+
+      {/* <ThirdwebResources /> */}
+    </main>
+  );
 }
+
